@@ -119,12 +119,12 @@ class SP_Meta_Box_Meta {
 
 		// Set parent id
 		if ( isset( $_GET['sp_parent'] ) ) {
-			echo "<input type='text' name='sp_parent' value='{$_GET['sp_parent']}' />\n";
+			echo "<input type='text' name='sp_parent' value='" . esc_attr( $_GET['sp_parent'] ) . "' />\n";
 		}
 
 		// Set post type link id
 		if ( isset( $_GET['sp_pt_link'] ) ) {
-			echo "<input type='text' name='sp_pt_link' value='{$_GET['sp_pt_link']}' />\n";
+			echo "<input type='text' name='sp_pt_link' value='" . esc_attr( $_GET['sp_pt_link'] ) . "' />\n";
 		}
 		echo "</div>\n";
 
