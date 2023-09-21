@@ -78,6 +78,9 @@ Post Connector is WordPress Network / Multisite compatible. Each site will have 
 
 == Changelog ==
 
+= 1.0.11 - September 21, 2023 =
+* Tweak: Added escaping to 2 admin area outputs.
+
 = 1.0.10 - August 10, 2023 =
 * Tweak: Fixed a XSS vulnerability in the admin area. CVE-2023-28931, props Juampa Rodríguez.
 * Tweak: Fixed various other unescaped attribute and html output in the admin area.
