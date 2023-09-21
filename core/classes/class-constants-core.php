@@ -3,7 +3,7 @@
 abstract class SP_Constants_Core {
 
 	// Plugin meta data
-	const PLUGIN_VERSION_NAME = '1.0.10';
+	const PLUGIN_VERSION_NAME = '1.0.11';
 	const PLUGIN_VERSION_CODE = '10';
 	const PLUGIN_AUTHOR = 'Never5';
 

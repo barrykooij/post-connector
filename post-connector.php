@@ -3,7 +3,7 @@
 	Plugin Name: Post Connector
 	Plugin URI: https://www.post-connector.com/
 	Description: With Post Connector you can easily link posts to each other.
-	Version: 1.0.10
+	Version: 1.0.11
 	Author: Never5
 	Author URI: http://www.never5.com/
 
